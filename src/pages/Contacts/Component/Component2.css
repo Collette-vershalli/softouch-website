@@ -1,0 +1,29 @@
+ .see{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .inside{
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    
+} 
+.tired{
+    width: 100%;
+    background-size: cover;
+}
+a:hover{ color: white;}
+a:visited{color: skyblue;}
+a:active{color: purple;}
+
+.bottom{
+    background-color: black;
+    /* width:100.5%; */
+    padding-top: 0%;
+}
+.location-container{
+    background-color: black;
+}
+
+   

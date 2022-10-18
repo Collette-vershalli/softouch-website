@@ -1,0 +1,41 @@
+.location {
+    width: 200px;
+    user-select: none;
+    /* margin: 100px auto; */
+    position: relative;
+    
+  
+  }
+  .location .location-btn {
+    padding: 15px, 50px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    height: 50px;
+    text-align: center;
+  }
+  .location .location-content {
+     position: absolute; 
+    top: 110%;
+    left: 0;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: 500;
+    color: #333;
+    width: 100%;
+  }
+  .location .location-content .location-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: all o.2s;
+  }
+  .location .location-content .location-item:hover {
+    background: #f4f4f4;
+  }
+  

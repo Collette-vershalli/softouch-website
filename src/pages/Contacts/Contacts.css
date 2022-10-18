@@ -1,0 +1,27 @@
+.both{
+    position: relative;
+}
+.call{
+    position: absolute;
+    text-align: center;
+    bottom: 0%;
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.bold{
+    background-color: purple;
+    color: #fff;
+    border-color: skyblue;
+    height: 50px;
+    border-radius: 10px;
+}
+.bold:hover{
+background-color: skyblue;
+border-color: skyblue;
+}
+.entire{
+    width: 100%;
+    height: 100%;
+}

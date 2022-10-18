@@ -1,0 +1,23 @@
+.first{
+
+    position: relative ;
+    width: 100%;
+    
+}
+.name{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 70px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(15rem,20rem));
+    gap: 2rem;
+    justify-content: center;
+    /* background-color: #0B0C10; */
+}
